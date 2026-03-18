@@ -14,7 +14,6 @@ A WooCommerce payment gateway plugin for **bKash Tokenized Checkout** (Banglades
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Laravel Integration](#laravel-integration)
 - [API Reference](#api-reference)
   - [Authentication](#authentication)
   - [Initiate Payment](#initiate-payment)
@@ -60,10 +59,6 @@ A WooCommerce payment gateway plugin for **bKash Tokenized Checkout** (Banglades
 - Select **bKash** and place order.
 - Customer is redirected to bKash for payment.
 - On return, the order is marked paid/cancelled/failed based on callback status.
-
-## Laravel Integration
-
-If you are looking for a Laravel/PHP API integration (not this plugin), you can reuse the API flow from `instructorium.com/api/bkash` and adapt it for Laravel.
 
 ## API Reference
 
